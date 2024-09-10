@@ -9,6 +9,5 @@ def fizzbuzz():
         elif i % 5 == 0:
             result.append("Buzz")
         else:
-            result.append(str(i))
-    
+            result.append(str(i)) 
     print(" ".join(result))
